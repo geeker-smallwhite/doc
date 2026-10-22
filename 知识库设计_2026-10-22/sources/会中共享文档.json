@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "identity": "user",
+  "data": {
+    "document": {
+      "content": "# 知识库设计\n\n1. Dycontext\n2. 豆包工作\n3. 豆包\n4. Codex/Trae\n\n\n\n知识注入 agent 的形式\n\n1. 主动\n\nSkill 的形式\n\nLark-draw\n\n1. 流程图：prompt1\n2. 时序图：prompt2\n\n1. 被动\n\n```Markdown\nsystem prompt \nuse prompt\n\nuse prompt \n<reminders></reminders> \n\n短期记忆\n\n```\n\n\n\n---\n\n根据更新频率划分\n\n1. 最快：数据知识\n2. 其次：代码逻辑 ｜ 文档信息\n3. 一些约定俗成的信息：\n\n\n\n1. Skill.md 的信息\n2. Sub markdown 的引用内容\n3. 通过调用接口获取\n\n   1. 代码获取\n\n\n\n\n\n\n\n静态知识\n\n动态知识\n\n\n\n\n\nLark-cli skill 知识切分\n\n四层\n\n1. Lark-cli 主体\n2. lark-cli <service> \n3. Lark-cli service 每个模块的具体描述，动态修改获取最底层的内容\n4. 在线数据",
+      "document_id": "VJTZdMJKUo6VN2xA3qVcSWgyn9f",
+      "revision_id": 363
+    }
+  },
+  "_notice": {
+    "update": {
+      "command": "lark-cli update",
+      "current": "1.0.97",
+      "latest": "1.0.98",
+      "message": "lark-cli 1.0.98 available, current 1.0.97, run: lark-cli update"
+    }
+  }
+}
